@@ -1,0 +1,10 @@
+;; helloworld.g++
+(def sumup (x) 
+ (if (equal x 0) 
+ 1 
+ (+ x (sumup (- x 1)))
+ )
+ )
+(list 1b1 2b1 123b12)
+(liste 1b1 2b1 3b1)
+(exit)
